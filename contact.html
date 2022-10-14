@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="images/qrcode.png" />
+        <title>Website 1st Lecture</title>
+    </head>
+    <body>
+        <h1 align="center">Registration Form</h1>
+        <form>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter Name" value="Usman" maxlength="10" /><br><br>
+
+            
+            <label>Age:</label>
+            <input type="number" placeholder="Current AGe" min="1" max="10" step="2" /><br><br>
+
+            
+            <label>Email Address:</label>
+            <input type="email" /><br><br>
+
+            <label>Sports:</label>
+            <input type="checkbox" />
+            <label>Cricket</label>
+            <input type="checkbox" />
+            <label>Badminton</label><br><br>
+
+            <label>Color:</label>
+            <input type="color" /><br><br>
+
+            <label>Date of Joining:</label>
+            <input type="date" /><br><br>
+
+            <label>Date of Admission:</label>
+            <input type="datetime" /><br><br>
+
+            <label>Date:</label>
+            <input type="datetime-local" /><br><br>
+
+            <label>Photo:</label>
+            <input type="file" accept="image/jpeg" multiple /><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gen" />
+            <label>Male</label>
+            <input type="radio" name="gen" />
+            <label>Female</label>
+            <br><br>
+
+            <label>Qualification:</label>
+            <input type="radio" name="qua" />
+            <label>PhD</label>
+            <input type="radio" name="qua" />
+            <label>Master</label>
+            <input type="radio" name="qua" />
+            <label>Bachelor</label>
+            <input type="radio" name="qua" />
+            <label>Intermediate</label>
+            <input type="radio" name="qua" />
+            <label>Matric</label>
+            <br><br>
+
+            <input type="month" /><br><br>
+            <input type="password" /><br><br>
+            
+            <input type="range" min="1" max="100" value="9"/><br><br>
+
+            <meter min="8" max="10" value="9"></meter>
+            <progress max="20" value="2"></progress>
+
+            <input type="search" /><br><br>
+            <input type="tel" /><br><br>
+            <input type="time" /><br><br>
+            <input type="url" /><br><br>
+            <input type="week" /><br><br>
+            <input type="hidden" /><br><br>
+            <input type="image" src="images/caar.jpg" width="50" alt="abc" /><br><br>
+
+
+            <select>
+                <option>Select City</option>
+                <option>Quetta</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+                <option>Faisalabad</option>
+            </select><br><br>
+
+            <input type="text" placeholder="Enter Country" list="countryName"/>
+            
+            <datalist id="countryName">
+                <option>USA</option>
+                <option>UK</option>
+                <option>Russia</option>
+                <option>Pakistan</option>
+            </datalist>
+            <br><br>
+
+            <select>
+                <option>Select City</option>
+                <optgroup label="Punjab">
+                    <option>Lahore</option>
+                    <option>Islamabad</option>
+                    <option>Faisalabad</option>
+                </optgroup>
+                <optgroup label="Balochistan">
+                    <option>Quetta</option>
+                </optgroup>
+                <optgroup label="Sindh">
+                    <option>Karachi</option>
+                    <option>Hyderabad</option>
+                </optgroup>
+            </select><br><br>
+
+
+
+            <!-- <output></output> -->
+
+            <!-- submit, button, reset -->
+            <button>Save Record</button>
+            <button type="reset">Clear</button>
+            <button type="button">Show</button>
+
+            <!-- old way for submit, button, reset -->
+            <input type="submit" value="Save Record" />
+            <input type="reset" value="Clear" />
+            <input type="button" value="Show" />
+        </form>
+    </body>
+</html>
+

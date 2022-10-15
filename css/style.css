@@ -1,0 +1,94 @@
+.test {
+    background-color: chartreuse;
+    width: 50%;
+    height: 100px;
+    padding: 20px 10px;
+    margin: 30px 1px 20px 65px;
+}
+
+#circle {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    /* border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px; */
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1,
+h4 {
+    color: rgb(255, 165, 0) !important;
+    font-size: 60px;
+    text-align: center;
+    background-color: aqua;
+}
+
+p {
+    color: red;
+}
+
+/* h3{
+                color: purple;
+            } */
+
+h4 {
+    font-style: italic;
+}
+
+/* div {
+    background-color: #d91a1a;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    color: white;
+    /* border: 10px groove purple; */
+/* border-left: 10px solid purple;
+    border-right: 5px solid orange; */
+/* border-top: 5px solid orange;
+    border-bottom: 5px solid orange; */
+/* border-top-color: purple;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-color: ;
+    border-width: ;
+    border-style: ; */
+}
+
+*/ span {
+    background-color: #def10d;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
+div h3 a,
+p strong {
+    color: green;
+}
+
+/* #abc, #xyz{
+                width: 200px;
+                height: 300px;
+            } */
+
+/* #xyz{
+
+            } */
+
+.pp {
+    color: red;
+    text-align: center;
+}
+
+span.pp {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.op {
+    font-style: italic;
+}

@@ -54,18 +54,18 @@ h4 {
     font-style: italic;
 }
 
-/* div {
-    background-color: #d91a1a;
+div {
+    /*    background-color: #d91a1a;
     width: 200px;
     height: 150px;
     display: inline-block;
     color: white;
     /* border: 10px groove purple; */
-/* border-left: 10px solid purple;
+    /* border-left: 10px solid purple;
     border-right: 5px solid orange; */
-/* border-top: 5px solid orange;
+    /* border-top: 5px solid orange;
     border-bottom: 5px solid orange; */
-/* border-top-color: purple;
+    /* border-top-color: purple;
     border-top-width: 10px;
     border-top-style: solid;
     border-color: ;
@@ -73,7 +73,7 @@ h4 {
     border-style: ; */
 }
 
-*/ span {
+span {
     background-color: #def10d;
     width: 400px;
     height: 200px;

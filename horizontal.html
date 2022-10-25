@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ecommerce Website</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+
+        #outerBox{
+            background-color: black;
+            list-style-type: none;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .innerBox{
+            float: left;
+        }
+
+        .textlink{
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        /* Pseudo Classes */
+        .textlink:hover{
+            background-color: red;
+            font-style: italic;
+        }
+
+        /* Transition CSS start */
+
+        #trans{
+            background-color: red;
+            width: 50px;
+            height: 100px;
+
+            transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transition-delay: 2s;
+        }
+
+        #trans:hover{
+            width: 1100px;
+            height: 500px;
+        }
+
+        /* Transition CSS end */
+
+        /* Animation CSS start */
+        #animation{
+            width: 100px;
+            height: 100px;
+            border-radius: 300px;
+            background-color: purple;
+            margin-top: 30px;
+
+            position: relative;
+
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-name: mah;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-play-state: running;
+        }
+
+        @keyframes mah {
+            0%{
+                top: 0;
+                left: 0;
+                bottom: 500px;
+                right: 400px;
+                background-color: purple;
+            }
+            25%{
+                top: 0;
+                left: 400px;
+                bottom: 500px;
+                right: 0;
+                background-color: red;
+            }
+            50%{
+                top: 500px;
+                left: 400px;
+                bottom: 0;
+                right: 0;
+                background-color: yellow;
+            }
+            75%{
+                top: 500px;
+                left: 0;
+                bottom: 0;
+                right: 400px;
+                background-color: black;
+            }
+            100%{
+                bottom: 500px;
+                right: 400px;
+                top: 0;
+                left: 0;
+                background-color: purple;
+            }    
+        }
+        /* Animation CSS end */
+
+    </style>
+    <script src="https://kit.fontawesome.com/4808008cc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul id="outerBox">
+            <li class="innerBox">
+                <a href="#" class="textlink">
+                    <i class="fas fa-home"></i> Home
+                </a>
+            </li>
+            <li class="innerBox">
+                <a href="#" class="textlink">
+                    <i class="fas fa-shipping-fast"></i> Shop
+                </a>
+            </li>
+            <li class="innerBox">
+                <a href="#" class="textlink">About Us</a>
+            </li>
+            <li class="innerBox">
+                <a href="#" class="textlink">Career</a>
+            </li>
+            <li class="innerBox">
+                <a href="#" class="textlink">Contact Us</a>
+            </li>
+            <li class="innerBox">
+                <a href="#" class="textlink">Contact Us</a>
+            </li>
+            <li class="innerBox">
+                <a href="#" class="textlink">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+       <div id="trans"></div> 
+    </section>
+
+    <section>
+        <div id="animation"></div> 
+     </section>
+</body>
+</html>

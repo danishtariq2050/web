@@ -31,14 +31,14 @@
 }
 
 body {
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     /* background-image: url('../images/caar.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; */
 
-    background: url('../images/caar.jpg') no-repeat center center fixed;
-    background-size: cover;
+    /* background: url('../images/caar.jpg') no-repeat center center fixed;
+    background-size: cover; */
 }
 
 h1,
@@ -113,4 +113,47 @@ span.pp {
 
 .op {
     font-style: italic;
+}
+
+/* @media screen and (max-width: 800px) {
+    body {
+        background-color: green;
+    }
+
+    span.pp {
+        font-weight: normal;
+        font-size: 30px;
+    }
+}
+
+ @media screen and (min-width: 801px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media print {
+
+    div,
+    span,
+    p {
+        display: none;
+    }
+
+    a {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+*/
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: red;
+    }
 }
